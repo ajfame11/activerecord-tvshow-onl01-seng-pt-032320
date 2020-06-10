@@ -5,7 +5,7 @@ class Show <ActiveRecord::Base
   end
   
   def self.most_popular_show
-    Show.name.when(self.highest_rating)
+    Show.name
   end
   
   def self.lowest_rating
