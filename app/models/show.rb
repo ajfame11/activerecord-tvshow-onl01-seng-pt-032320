@@ -20,6 +20,10 @@ class Show <ActiveRecord::Base
     
   end
   
+  def popular_shows
+    
+  end
+  
   
   
 end
